@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Array</title>
+    </head>
+    <body>
+    <h1>Todays Array Class</h1>
+    <p>How to declare array?
+    <h4 id="declaration_array"></h4>
+    </p>
+    <hr>
+    <p>How to fetch the first element of the array?
+        <h4 id="fetch_first_element"></h4>
+    </p>
+    <hr>
+    <p>How to fetch the second element?
+        <h4 id="fetch_second_element"></h4>
+    </p>
+    <hr>
+    <p>How to fetch the third element?
+        <h4 id="fetch_third_element"></h4>
+    </p>
+    <hr>
+    </body>
+    <script>
+    var fruits = ["Apple","Watermelon","Mango"];
+    console.log(fruits);
+    document.getElementById("declaration_array").innerHTML = fruits;
+        var first_element = fruits[0];
+        console.log(first_element);
+        document.getElementById("fetch_first_element").innerHTML = first_element;
+        var second_element = fruits[1];
+        console.log(second_element);
+        document.getElementById("fetch_second_element").innerHTML = second_element;
+        var third_element = fruits[2];
+        console.log(third_element);
+        document.getElementById("fetch_third_element").innerHTML = third_element;
+    </script>
+</html>
